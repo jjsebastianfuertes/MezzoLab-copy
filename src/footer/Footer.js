@@ -1,11 +1,11 @@
-import React from "react";
-import "./footer-styles.css";
+import React from 'react';
+import styles from './footer-styles.module.css';
 
 const Footer = () => {
   return (
-    <div className="footerContainer">
-      <h3> © MezzoLab 2019</h3>
-      <div className="footerContainerLinks">
+    <div className={styles.footerContainer}>
+      <h3 className={styles.logoTitle}> © MezzoLab 2019</h3>
+      <div className={styles.footerContainerLinks}>
         <a href="#">
           <h2>Work</h2>
         </a>

@@ -1,0 +1,20 @@
+.footerContainer {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  padding: 0 100px;
+}
+
+.footerContainerLinks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-self: center;
+  justify-self: end;
+}
+.logoTitle {
+  align-self: center;
+}
+a {
+  color: #bbbbbb;
+  text-decoration: none;
+  text-align: center;
+}

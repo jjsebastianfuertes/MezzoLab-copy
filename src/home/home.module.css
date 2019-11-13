@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: calc(100vh - 100px);
+}
+
+.item {
+  margin: 0;
+  justify-self: center;
+  align-self: center;
+  font-size: 6em;
+  text-align: center;
+}

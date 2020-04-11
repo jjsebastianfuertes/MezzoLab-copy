@@ -1,0 +1,23 @@
+.our-clients{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+}
+.our-clients__title{
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: left;
+}
+.our-clients__brands{
+    display: grid;
+    grid-gap: 2rem;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(5,1fr);
+}
+.our-clients img{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}

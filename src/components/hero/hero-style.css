@@ -1,0 +1,13 @@
+.container-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+    height: 90vh;
+}
+.container-hero__text{
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,14 @@
+.projects{
+    width: 85%;
+    display: grid;
+    grid-gap: 6rem;
+    margin: 0 auto;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+}
+.projects__view-more{
+    justify-self: center;
+    font-size: 3rem;
+    font-weight: 400;
+    color: black;
+}

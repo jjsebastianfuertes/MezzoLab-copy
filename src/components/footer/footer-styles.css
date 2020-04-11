@@ -1,16 +1,12 @@
-.footerContainer {
+.footer-container {
   display: grid;
   grid-template-columns: 70% 30%;
   padding-right: 150px;
   padding-left: 150px;
   padding-bottom: 40px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
-.footerContainerLinks {
+.footer-container__links {
   display: grid;
   grid-template-columns: repeat(3, 33.3%);
 }

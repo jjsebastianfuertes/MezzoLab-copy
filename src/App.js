@@ -1,13 +1,21 @@
 import React from "react";
-import Header from "./header/Header";
-import Footer from "./footer/Footer";
+
 import "./App.css";
+import Hero from "./components/hero/hero";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Slogan from "./components/slogan/slogan";
+import OurClients from './components/our-clients/our-clients';
+import Projects from "./components/projects/projects";
 
 function App() {
   return (
-    <div>
+    <div className="container-content">
       <Header></Header>
-
+      <Hero/>
+      <Slogan />
+      <Projects/>
+      <OurClients/>
       <Footer></Footer>
     </div>
   );
